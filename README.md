@@ -1,5 +1,5 @@
 <p align="center">
-  #  <img src="logo tool link">
+  <img src="logo tool link">
     <br/>
     <img src="https://forthebadge.com/images/badges/made-with-python.svg">
     <br/>
