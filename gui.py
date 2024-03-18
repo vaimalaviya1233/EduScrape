@@ -4,6 +4,7 @@ import time
 import traceback
 from webbrowser import open as web
 
+
 import PySimpleGUI as sg
 import requests
 import cloudscraper
@@ -167,7 +168,7 @@ if login_error:
                 key="password",
                 size=(20, 1),
                 pad=(5, 5),
-                password_char="💀",
+                password_char="*",
             ),
         ],
         [
