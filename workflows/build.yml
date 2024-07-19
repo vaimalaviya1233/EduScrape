@@ -22,7 +22,7 @@ jobs:
           pip install pyinstaller -U
 
       - name: Build GUI
-        run: pyinstaller -y -F -w -i "extra/EduScrape-LOGO.ico"  --clean --name "EduScrape" --add-data "base.py;." --add-data "colors.py;." --add-data "README.md;." --add-data "LICENSE;."  "gui.py"
+        run: pyinstaller -y -F -w -i "EduScrape-LOGO.ico"  --clean --name "EduScrape" --add-data "base.py;." --add-data "colors.py;." --add-data "README.md;." --add-data "LICENSE;."  "gui.py"
 
       - name: Upload GUI.exe
         uses: actions/upload-artifact@v3
